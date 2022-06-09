@@ -58,7 +58,7 @@ Data exploration is 💗 of any data science project. If you don't do this you w
 
 Data Exploration helps us understand data better but what after that? With better understanding of data lets generate insights from data using suitable table joins and many other functions to meet requirement of business. 
 
-[<center><img src="Images/joins.svg" width=450 height=30></center>](./Table%20Join%20and%20Insights/ "Click here to see all insights.")
+[<center><img src="Images/joins.svg" width=450 height=30></center>]( ./Table%20Joins%20%26%20Insights/ "Click here to see all insights.")
 
 
 
