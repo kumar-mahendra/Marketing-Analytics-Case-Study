@@ -19,15 +19,14 @@ Lets begin!
 
 I have here created crux of my analysis. 
 
-| left_table | right_table | foreign_key |Join type| output_name | Analysis | 
-|--|--|--|--|--|--|
-|rental|inventory|inventory_id|INNER| table_join_1 |  [<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_1.sql)
-|inventory|film|film_id|INNER|table_join_2| [<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_2.sql)|
-|film|film_category|film_id|INNER|table_join_3|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_3.sql)|kv
-|film_category|category|category_id|INNER|table_join_4|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_4.sql)|
-
-
-
+| Left_table | Right_table | Foreign_key |Join type|  Analysis | 
+|--|--|--|--|--|
+|rental|inventory|inventory_id|`INNER`|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_1.sql)
+|inventory|film|film_id|`INNER`|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_2.sql)|
+|film|film_category|film_id|`INNER`|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_3.sql)|
+|film_category|category|category_id|`INNER`|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_4.sql)|
+|film| film_actor | film_id | `None`  |[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_5.sql)|
+|film_actor|actor|actor_id| `INNER`|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_6.sql)|
 
 
 
