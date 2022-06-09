@@ -1,6 +1,10 @@
 ## Exploratory Data Analysis
 ---
 
+>**Short Story** : Even Mathematician Srinivasa Ramanujan had to provide proof to every result he claimed was true to get published. Even though G.H. Hardy  believed him but that doesn't validate his research. At last when he provided proofs and then his theory of **higly composite numbers** was published which helped him gain recognition throughout the world for first time. Rest is history. 
+
+
+
 Have a look at diagram below which shows all table provided by DVD Rental Co. and their inter-relationships. 
 
 <p align="center">
@@ -17,7 +21,7 @@ I have here created crux of my analysis.
 
 | left_table | right_table | foreign_key |Join type| output_name | Analysis | 
 |--|--|--|--|--|--|
-|rental|inventory|inventory_id|INNER| table_join_1 |  [<img src="../images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_1.sql)
+|rental|inventory|inventory_id|INNER| table_join_1 |  ![<img src="../images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_1.sql)
 |inventory|film|film_id|INNER|table_join_2| [<img src="../images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_2.sql)|
 |film|film_category|film_id|INNER|table_join_3|[<img src="../images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_3.sql)|kv
 |film_category|category|category_id|INNER|table_join_4|[<img src="../images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_4.sql)|
