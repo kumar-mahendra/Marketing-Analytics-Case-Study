@@ -21,10 +21,10 @@ I have here created crux of my analysis.
 
 | left_table | right_table | foreign_key |Join type| output_name | Analysis | 
 |--|--|--|--|--|--|
-|rental|inventory|inventory_id|INNER| table_join_1 |  ![<img src="../images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_1.sql)
-|inventory|film|film_id|INNER|table_join_2| [<img src="../images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_2.sql)|
-|film|film_category|film_id|INNER|table_join_3|[<img src="../images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_3.sql)|kv
-|film_category|category|category_id|INNER|table_join_4|[<img src="../images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_4.sql)|
+|rental|inventory|inventory_id|INNER| table_join_1 |  [<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_1.sql)
+|inventory|film|film_id|INNER|table_join_2| [<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_2.sql)|
+|film|film_category|film_id|INNER|table_join_3|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_3.sql)|kv
+|film_category|category|category_id|INNER|table_join_4|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_4.sql)|
 
 
 
