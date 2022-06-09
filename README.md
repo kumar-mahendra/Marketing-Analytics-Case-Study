@@ -49,9 +49,19 @@ Before we proceed further have a look on email-draft  provided by the company.
 
 </details>
 
-### 🔎Data Exploration
+### 🔎Data Exploration and Analysis
 
 Data exploration is 💗 of any data science project. If you don't do this you will probably end up making observations/conclusion which are not backed by any evidence and hence of no use in real-world as nobody will believe you. 
+[<center><img src="Images/eda.svg" width=300 height=100></center>](./Exploratory%20Data%20Analysis/ "Click here to see full analysis.")
+
+### 🏝️ Table Joins & Insights
+
+Data Exploration helps us understand data better but what after that? With better understanding of data lets generate insights from data using suitable table joins and many other functions to meet requirement of business. 
+
+[<center><img src="Images/joins.svg" width=450 height=30></center>](./Table%20Join%20and%20Insights/ "Click here to see all insights.")
+
+
+
 
 
 
