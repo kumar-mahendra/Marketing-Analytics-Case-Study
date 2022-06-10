@@ -5,7 +5,7 @@
 ### 📀 Business Problem 
 
 Marketing team @DVD Rental Co. wants to launch its very first [email markeing][1] campaign and wants our help to fill missing entries in their email template. <br>
-The team believes these personalized email will help increase their dvd sales and which in turn company's revenue. 
+The team believes these personalized email will help increase their dvd sales and which in turn will raise company's revenue. 
 
 [1]: https://en.wikipedia.org/wiki/Email_marketing "Email marketing is the act of sending a commercial message, typically to a group of people, using email. "
 
