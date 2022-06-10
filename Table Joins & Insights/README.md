@@ -15,8 +15,6 @@ Based on business questions we have,  now we design a *plan of attack* or *solut
     <details>
     <summary><u>Base Table</u></summary>
 
-    ```sql
-    
     | customer_id | film_id | film_name           | category_id | category_name |
     | ----------- | ------- | --------------- | ----------- | ------------- |
     | 130         | 80      | BLANKET BEVERLY | 8           | Family        |
@@ -25,7 +23,6 @@ Based on business questions we have,  now we design a *plan of attack* or *solut
     | 333         | 535     | LOVE SUICIDES   | 11          | Horror        |
     | 222         | 450     | IDOLS SNATCHERS | 3           | Children      |
 
-    ```
     </details>
 
 - Using Base table we can derive following columns 
@@ -38,7 +35,6 @@ Based on business questions we have,  now we design a *plan of attack* or *solut
         <details>
         <summary>category insights</summary>
             
-        ```sql    
         | customer_id | category_rank | category_name | insights                                                                                                        |
         | ----------- | ------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
         | 1           | 1             | Classics      | You have watched 6 Classics that"s 4 more than the DVD Rental Co. average and puts you top 1 % of experts.  |
@@ -46,7 +42,7 @@ Based on business questions we have,  now we design a *plan of attack* or *solut
         | 2           | 1             | Sports        | You have watched 5 Sports that"s 3 more than the DVD Rental Co. average and puts you top 3 % of experts.    |
         | 2           | 2             | Classics      | You have watched 4  making up 15 % of your total watch history!                                             |
         | 3           | 1             | Action        | You have watched 4 Action that"s 2 more than the DVD Rental Co. average and puts you top 5 % of experts.    |
-        ```
+     
         </details>
  
   
