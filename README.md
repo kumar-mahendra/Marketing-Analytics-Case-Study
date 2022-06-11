@@ -90,7 +90,7 @@ This is how our final table looks like
 All column names and further explainations are provided in [All_in_One](All_in_one) Folder.
 Now marketing team can use this table to do their email-marketing. Good luck 
 
-> [Click here](./all_in_one_script.sql) here to see complete script and process how it is generated . Be aware this is very long scrit!
+> [Click here](./all_in_one_script.sql) here to see complete script and process how it is generated . Be aware this is very long script!
 
 ---
 
