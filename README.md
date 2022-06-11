@@ -64,12 +64,12 @@ Before we proceed further have a look on email-draft  provided by the company.
 
 Data exploration is 💗 of any data science project. If you don't do this you will probably end up making observations/conclusion which are not backed by any evidence and hence of no use in real-world as nobody will believe you. 
 
-### 🏝️ Table Joins & Insights [<img src="./Images/folder.gif" align=center width=45 height=45>](./README.md "Go to folder to see detailed Insights") 
+### 🏝️ Table Joins & Insights [<img src="./Images/folder.gif" align=middle width=45 height=45>](./README.md "Go to folder to see detailed Insights") 
 
 Data Exploration helps us understand data better but what after that? With better understanding of data lets generate insights from data using suitable table joins and many other functions to meet requirement of business. 
 
 
-### 🏆 All in ONE [<img src="./Images/folder.gif" align=center width=45 height=45>](./README.md "See Full Script") 
+### 🏆 All in ONE [<img src="./Images/folder.gif" align=middle width=45 height=45>](./README.md "See Full Script") 
 
 This is how our final table looks like 
 
