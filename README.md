@@ -49,7 +49,7 @@ Before we proceed further have a look on email-draft  provided by the company.
 >- what are **top 3 films featuring** the same actor which are not watched by customer? 
 
 <details>
-<summary>🏷️ Additional Remarks for Edge Cases :</summary>
+<summary><u>🏷️ Additional Remarks for Edge Cases :</u></summary>
 
 >* While choosing top 2 categories if there is a tie between 2nd topmost and its next category choose the category which comes first in alphabetical order.
 >* Similarly , for movie recommendation , in case of tie between top 3 and next movie ,  choose the movie which come first in alphabetical order.
@@ -60,7 +60,7 @@ Before we proceed further have a look on email-draft  provided by the company.
 
 </details>
 
-### 🔎Data Exploration and Analysis [<img src="./Images/folder.gif" align=center width=45 height=45>](./README.md "Go to folder to see full analysis") 
+### 🔎Data Exploration and Analysis [<img src="./Images/folder.gif" align=middle width=45 height=45>](./README.md "Go to folder to see full analysis") 
 
 Data exploration is 💗 of any data science project. If you don't do this you will probably end up making observations/conclusion which are not backed by any evidence and hence of no use in real-world as nobody will believe you. 
 
