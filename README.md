@@ -24,7 +24,6 @@ Before we proceed further have a look on email-draft  provided by the company.
 <details>
 <summary><p align="center">
 <img src="./Images/poster_1.svg" height=500 width=300 >
-<center><i>Click poster to see business questions</i></center>
 </p></summary>
 
 <br><br>
