@@ -2,6 +2,8 @@
 > *It is not customer's job to know what they want.* 
 >                                   - Steve Jobs
 
+<br>
+
 ### Table of Contents
   - [📀 Business Problem](#-business-problem)
   - [🙋 Business Questions](#-business-questions)
@@ -9,7 +11,7 @@
   - [🏝️ Table Joins & Insights](#️-table-joins--insights)
   - [🏆 All in ONE](#-all-in-one)
    
----
+<br>
 
 ### 📀 Business Problem 
 
