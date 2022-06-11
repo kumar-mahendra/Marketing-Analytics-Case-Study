@@ -23,11 +23,15 @@ Before we proceed further have a look on email-draft  provided by the company.
 
 <details>
 <summary><p align="center">
-<img src="./Images/poster_1.svg" height=1000 width=800 >
-<center>Click me to see see business questions.</center>
+<img src="./Images/poster_1.svg" height=800 width=800 >
+<center><i>Click poster to see business questions</i></center>
 </p></summary>
 
 <br><br>
+
+
+<p align="center">
+<img src="./Images/requirements.gif" height=800 width=400 ></p>
 
 >**Question 1** What are **top 2 movie categories** based on total movies rented by customer in each category and also **how many movies** customer has watched in each category? 
 
