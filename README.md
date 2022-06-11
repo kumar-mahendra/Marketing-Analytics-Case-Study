@@ -5,9 +5,9 @@
 ### Table of Contents
   - [📀 Business Problem](#-business-problem)
   - [🙋 Business Questions](#-business-questions)
-  - [🔎Data Exploration and Analysis](#data-exploration-and-analysis)
-  - [🏝️ Table Joins & Insights](#️-table-joins--insights)
-  - [🏆 All in ONE](#-all-in-one)
+  - [🔎Data Exploration and Analysis](#🔎data-exploration-and-analysis-img-src"imagesfoldergif"-alignmiddle-width45-height45exploratory20data20analysis-"go-to-folder-to-see-full-analysis")
+  - [🏝️ Table Joins & Insights](#🏝️-table-joins--insights-img-src"imagesfoldergif"-alignmiddle-width45-height45table20joins202620insights-"go-to-folder-to-see-detailed-insights")
+  -  [🏆 All in ONE](#🏆-all-in-one-img-src"imagesfoldergif"-alignmiddle-width45-height45allinone-"see-full-script")
    
 
 ### 📀 Business Problem 
