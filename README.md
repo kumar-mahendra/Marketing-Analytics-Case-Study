@@ -100,9 +100,12 @@ Now marketing team can use this table to do their email-marketing. Good luck
 
 ©️ Mahendra Kumar, 2022
 
-For Feedback or suggestions connect on
+
+For any feedback or suggestions connect on
 
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/kumar-mahendra/ "Mahendra Kumar")
+
+*You may drop a 🌟 if you like this project. Thank you.* 
 
 
 
