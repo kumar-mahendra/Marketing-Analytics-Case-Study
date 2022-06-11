@@ -53,7 +53,7 @@ Based on business questions we have,  now we design a *plan of attack* or *solut
   - `watched_film_exclusions` : first sort total_film_count by decreasing order and then anti join it with `base_table_customer_category` to get movies not watched by customer 
   - `category_recommendations` : keep only movies in top_2 categories and then recommend top_3 movies in each category
     <details>
-    <summary><u>Movie recommendations</u></summary>
+    <summary><u>Category based movie recommendations</u></summary>
 
     | customer_id | category_rank | category_name | recommendation_rank | recommended_movie   |
     | ----------- | ------------- | ------------- | ------------------- | ------------------- |
@@ -96,6 +96,17 @@ Based on business questions we have,  now we design a *plan of attack* or *solut
 - `actor_film_exclusion` : exclude already watched and already recommended movies for each customer . 
 - `actor_recommendations` : now from previous output just return valid top 3 recommendations. 
 
+  <details>
+  <summary><u>Actor based movie recommendations</u></summary>
 
-  
+  | customer_id | actor_name     | recommend_rank | film_name         |
+  | ----------- | -------------- | -------------- | ----------------- |
+  | 1           | VAL BOLGER     | 1              | PRIMARY GLASS     |
+  | 1           | VAL BOLGER     | 2              | ALASKA PHANTOM    |
+  | 1           | VAL BOLGER     | 3              | METROPOLIS COMA   |
+  | 2           | GINA DEGENERES | 1              | GOODFELLAS SALUTE |
+
+
+  </details>
+    
 
