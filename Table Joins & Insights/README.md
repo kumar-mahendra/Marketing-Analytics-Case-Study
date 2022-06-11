@@ -3,7 +3,7 @@
 
 Based on business questions we have,  now we design a *plan of attack* or *solution strategy* that will help us generate **insights** at ***category level*** as well as ***actor level***
 
->`Note` : Click icons in front of each section to know more
+>`Note` : Click icons in front of each section to see sql scripts corresponding to each section. 
 
 
 ### Solution Strategy 
@@ -50,7 +50,7 @@ Based on business questions we have,  now we design a *plan of attack* or *solut
  
   
   
-#### Category Recommendations
+#### Category Recommendations [<img src="../Images/folder.png" width=30 height=30 align=middle>](./category_recomm.sql) 
   
   - `total_film_count` : total count of customer who watched a given film with category_name included. 
   - `watched_film_exclusions` : first sort total_film_count by decreasing order and then anti join it with `base_table_customer_category` to get movies not watched by customer 
@@ -74,7 +74,8 @@ Based on business questions we have,  now we design a *plan of attack* or *solut
   `Note` : Apart from columns mentioned above we might be required to generate some intermediate columns which will not be visible in final calculation. So be aware that too.
 
 
-#### Actor Insights 
+#### Actor Insights [<img src="../Images/folder.png" width=30 height=30 align=middle>](./actor_insights.sql)
+
 - Create a Base Table `base_table_actor_insights` which contains following columns 
   - `customer_id` : unique id of customer 
   - `film_id` : id of film watched by a customer
@@ -94,7 +95,8 @@ Based on business questions we have,  now we design a *plan of attack* or *solut
       | 4           | 102      | WALTER TORN    | 4               | You have watched 4 films featuring Walter ! Here are some other films to binge!.  |
       </details>
 
-#### Actor Recommendations
+#### Actor Recommendations [<img src="../Images/folder.png" width=30 height=30 align=middle>](./actor_recomm.sql)
+ 
 - `actor_film_popularity` : join the base table to `total_film_count` (which is number of customers watched a given film ) on column film_id of-course. 
 - `actor_film_exclusion` : exclude already watched and already recommended movies for each customer . 
 - `actor_recommendations` : now from previous output just return valid top 3 recommendations. 
