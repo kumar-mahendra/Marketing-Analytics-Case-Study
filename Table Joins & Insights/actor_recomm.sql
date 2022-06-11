@@ -162,5 +162,7 @@ SELECT *, DENSE_RANK() OVER ( PARTITION BY customer_id ORDER BY film_popularity 
 SELECT customer_id, actor_name, recommend_rank, film_name FROM temp_table WHERE recommend_rank <= 3
 );
 
-SELECT * FROM top_3_actor_based_recommendations LIMIT 4; 
+SELECT * FROM top_3_actor_based_recommendations LIMIT 4;
+
+
 

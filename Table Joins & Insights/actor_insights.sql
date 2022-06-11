@@ -4,7 +4,6 @@ Actor Insights
 
 
 /*
-
 Preview Output 
 
 Create Base Table base_table_actor_insights
