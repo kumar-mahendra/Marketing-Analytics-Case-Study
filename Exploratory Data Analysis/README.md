@@ -17,7 +17,7 @@ While performing table join our only point of concern is if there is any data lo
 
 Lets begin!
 
-I have here created crux of my analysis. 
+I have here created crux of my analysis.
 
 | Left_table | Right_table | Foreign_key |Join type|  Analysis | 
 |--|--|--|--|--|
@@ -27,6 +27,8 @@ I have here created crux of my analysis.
 |film_category|category|category_id|`INNER`|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_4.sql)|
 |film| film_actor | film_id | `None`  |[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_5.sql)|
 |film_actor|actor|actor_id| `INNER`|[<img src="../Images/click_me.gif" alt="drawing" width="30"/>](../Exploratory%20Data%20Analysis/analysis_6.sql)|
+
+
 
 
 

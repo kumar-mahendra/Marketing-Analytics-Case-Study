@@ -40,7 +40,7 @@ FROM
   INNER JOIN dvd_rentals.category AS t5 ON t5.category_id = t4.category_id
 ); 
 
-----------------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------*/
 
 /*
 Generate category_count columns for each customer and category
@@ -77,7 +77,7 @@ ORDER BY
 
 SELECT * FROM intermediate_table_1 LIMIT 5; 
 
----------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------*/
 
 /*
 Generate total_film_count for each category and append it to 
@@ -120,7 +120,7 @@ FROM
 WHERE
   customer_id = 1;
 
-------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------*/
 
 /*
 Generate average count of movies watched by customer in each category
@@ -159,7 +159,8 @@ CREATE TEMP TABLE intermediate_table_3 AS (
 );
 
 SELECT * FROM intermediate_table_3 LIMIT 5; 
-------------------------------------------------------------------------------
+
+/*----------------------------------------------------------------------------------------*/
 
 /*
 Find category rank for each customer and each category using 
@@ -196,7 +197,7 @@ ORDER BY
 ); 
 SELECT * FROM intermediate_table_4 LIMIT 5; 
 
--------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------*/
 
 /*
 At last we need to find where customer falls in top x% in each category. 
@@ -253,7 +254,8 @@ FROM
 SELECT * FROM intermediate_table_5 LIMIT 5; 
 
 
------------------------------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------*/
+
 /*
 Customer Insights for top 2 categories 
 
@@ -262,21 +264,22 @@ Preview Output
 | customer_id | category_rank | category_name | insights                                                                                                        |
 | ----------- | ------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
 | 1           | 1             | Classics      | You have watched 6 Classics that"s 4 more than the DVD Rental Co. average and puts you top 1 % of experts.  |
-| 1           | 2             | Comedy        | You have watched 5  making up 16 % of your total watch history!                                             |
+| 1           | 2             | Comedy        | You have watched 5 Comedy films making up 16 % of your total watch history!                                             |
 | 2           | 1             | Sports        | You have watched 5 Sports that"s 3 more than the DVD Rental Co. average and puts you top 3 % of experts.    |
-| 2           | 2             | Classics      | You have watched 4  making up 15 % of your total watch history!                                             |
+| 2           | 2             | Classics      | You have watched 4 Classics films making up 15 % of your total watch history!                                             |
 | 3           | 1             | Action        | You have watched 4 Action that"s 2 more than the DVD Rental Co. average and puts you top 5 % of experts.    |
 */
 
 
-
+DROP TABLE IF EXISTS category_insights; 
+CREATE TEMP TABLE category_insights AS (
 SELECT
   customer_id,
   category_rank,
-  category_name
+  category_name,
   CASE
     WHEN category_rank = 1 THEN 'You have watched ' || category_count :: text || ' ' || category_name :: text || ' that"s ' || (category_count - average_category_count) :: text || ' more than the DVD Rental Co. average and puts you top ' || category_percent_rank :: text || ' % of experts. '
-    ELSE 'You have watched ' || category_count :: text || ' ' || ' making up ' || category_percentage :: text || ' % of your total watch history!'
+    ELSE 'You have watched ' || category_count :: text || ' ' || category_name::text || ' films making up ' || category_percentage :: text || ' % of your total watch history!'
   END AS insights
 FROM
   intermediate_table_5
@@ -286,7 +289,7 @@ WHERE
 ORDER BY
   customer_id,
   category_rank
-LIMIT
-  5;
+); 
+SELECT * FROM category_insights LIMIT 5; 
 
----------------------------------------------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------*/
