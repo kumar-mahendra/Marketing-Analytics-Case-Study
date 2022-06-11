@@ -3,11 +3,11 @@
 >                                   - Steve Jobs
 
 ### Table of Contents
-  - [📀 Business Problem]
-  - [🙋 Business Questions]
-  - [🔎Data Exploration and Analysis]
-  - [🏝️ Table Joins & Insights]
-  - [🏆 All in ONE] 
+  - [📀 Business Problem](#📀-business-problem)
+  - [🙋 Business Questions](#-business-questions)
+  - [🔎Data Exploration and Analysis](#data-exploration-and-analysis)
+  - [🏝️ Table Joins & Insights](#️-table-joins--insights)
+  - [🏆 All in one](#-all-in-one)
 
 ### 📀 Business Problem 
 
@@ -23,7 +23,7 @@ Before we proceed further have a look on email-draft  provided by the company.
 
 <details>
 <summary><p align="center">
-<img src="./Images/click_me.gif" >
+<img src="./Images/poster_1.svg" height=1000 width=800 >
 <center>Click me to see see business questions.</center>
 </p></summary>
 
@@ -70,20 +70,20 @@ Data Exploration helps us understand data better but what after that? With bette
 
 > [Click here](./Table%20Joins%20%26%20Insights/) here to see how category and actor insights are generated 
 
-### 🏆 All in ONE [<img src="./Images/folder.gif" align=middle width=45 height=45>](./All_in_one/ "See Full Script") 
+### 🏆 All in one [<img src="./Images/folder.gif" align=middle width=45 height=45>](./All_in_one/ "See Full Script") 
 
 This is how our final table looks like 
 
 <details>
 <summary>Ultimate Table</summary>
 
-| customer_id | cat_1    | cat_1_rec_1         | cat_1_rec_2       | cat_1_rec_3       | cat_1_insight                                                                                               | cat_2     | cat_2_rec_1    | cat_2_rec_2    | cat_2_rec_3         | cat_2_insight                                                                  | actor_name     | actor_rec_1       | actor_rec_2           | actor_rec_3            |
-| ----------- | -------- | ------------------- | ----------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- | --------- | -------------- | -------------- | ------------------- | ------------------------------------------------------------------------------ | -------------- | ----------------- | --------------------- | ---------------------- |
-| 1           | Classics | TIMBERLAND SKY      | GILMORE BOILED    | VOYAGE LEGALLY    | You have watched 6 Classics that"s 4 more than the DVD Rental Co. average and puts you top 1 % of experts.  | Comedy    | ZORRO ARK      | CAT CONEHEADS  | OPERATION OPERATION | You have watched 5 Comedy films making up 16 % of your total watch history!    | VAL BOLGER     | PRIMARY GLASS     | ALASKA PHANTOM        | METROPOLIS COMA        |
-| 2           | Sports   | GLEAMING JAWBREAKER | TALENTED HOMICIDE | ROSES TREASURE    | You have watched 5 Sports that"s 3 more than the DVD Rental Co. average and puts you top 3 % of experts.    | Classics  | FROST HEAD     | GILMORE BOILED | VOYAGE LEGALLY      | You have watched 4 Classics films making up 15 % of your total watch history!  | GINA DEGENERES | GOODFELLAS SALUTE | WIFE TURN             | DOGMA FAMILY           |
-| 3           | Action   | RUGRATS SHAKESPEARE | SUSPECTS QUILLS   | HANDICAP BOONDOCK | You have watched 4 Action that"s 2 more than the DVD Rental Co. average and puts you top 5 % of experts.    | Animation | JUGGLER HARDLY | DOGMA FAMILY   | STORM HAPPINESS     | You have watched 3 Animation films making up 12 % of your total watch history! | JAYNE NOLTE    | ENGLISH BULWORTH  | SWEETHEARTS SUSPECTS  | DANCING FEVER          |
-| 4           | Horror   | PULP BEVERLY        | FAMILY SWEET      | SWARM GOLD        | You have watched 3 Horror that"s 2 more than the DVD Rental Co. average and puts you top 8 % of experts.    | Comedy    | ZORRO ARK      | CAT CONEHEADS  | CLOSER BANG         | You have watched 2 Comedy films making up 9 % of your total watch history!     | WALTER TORN    | HOBBIT ALIEN      | WITCHES PANIC         | CURTAIN VIDEOTAPE      |
-| 5           | Classics | TIMBERLAND SKY      | FROST HEAD        | GILMORE BOILED    | You have watched 7 Classics that"s 5 more than the DVD Rental Co. average and puts you top 1 % of experts.  | Animation | JUGGLER HARDLY | DOGMA FAMILY   | STORM HAPPINESS     | You have watched 6 Animation films making up 16 % of your total watch history! | KARL BERRY     | VIRGINIAN PLUTO   | STAGECOACH ARMAGEDDON | TELEMARK HEARTBREAKERS |
+| customer_id | cat_1    | cat_1_rec_1         | cat_1_rec_2       | cat_1_rec_3       | cat_1_insight                                                                                               | cat_2     | cat_2_rec_1    | cat_2_rec_2    | cat_2_rec_3         | cat_2_insight                                                                  | actor_name     | actor_insight                                                                     | actor_rec_1       | actor_rec_2           | actor_rec_3            |
+| ----------- | -------- | ------------------- | ----------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- | --------- | -------------- | -------------- | ------------------- | ------------------------------------------------------------------------------ | -------------- | --------------------------------------------------------------------------------- | ----------------- | --------------------- | ---------------------- |
+| 1           | Classics | TIMBERLAND SKY      | GILMORE BOILED    | VOYAGE LEGALLY    | You have watched 6 Classics that"s 4 more than the DVD Rental Co. average and puts you top 1 % of experts.  | Comedy    | ZORRO ARK      | CAT CONEHEADS  | OPERATION OPERATION | You have watched 5 Comedy films making up 16 % of your total watch history!    | VAL BOLGER     | You have watched 6 films featuring Val ! Here are some other films to binge!.     | PRIMARY GLASS     | ALASKA PHANTOM        | METROPOLIS COMA        |
+| 2           | Sports   | GLEAMING JAWBREAKER | TALENTED HOMICIDE | ROSES TREASURE    | You have watched 5 Sports that"s 3 more than the DVD Rental Co. average and puts you top 3 % of experts.    | Classics  | FROST HEAD     | GILMORE BOILED | VOYAGE LEGALLY      | You have watched 4 Classics films making up 15 % of your total watch history!  | GINA DEGENERES | You have watched 5 films featuring Gina ! Here are some other films to binge!.    | GOODFELLAS SALUTE | WIFE TURN             | DOGMA FAMILY           |
+| 3           | Action   | RUGRATS SHAKESPEARE | SUSPECTS QUILLS   | HANDICAP BOONDOCK | You have watched 4 Action that"s 2 more than the DVD Rental Co. average and puts you top 5 % of experts.    | Animation | JUGGLER HARDLY | DOGMA FAMILY   | STORM HAPPINESS     | You have watched 3 Animation films making up 12 % of your total watch history! | JAYNE NOLTE    | You have watched 4 films featuring Jayne ! Here are some other films to binge!.   | ENGLISH BULWORTH  | SWEETHEARTS SUSPECTS  | DANCING FEVER          |
+| 4           | Horror   | PULP BEVERLY        | FAMILY SWEET      | SWARM GOLD        | You have watched 3 Horror that"s 2 more than the DVD Rental Co. average and puts you top 8 % of experts.    | Comedy    | ZORRO ARK      | CAT CONEHEADS  | CLOSER BANG         | You have watched 2 Comedy films making up 9 % of your total watch history!     | WALTER TORN    | You have watched 4 films featuring Walter ! Here are some other films to binge!.  | HOBBIT ALIEN      | WITCHES PANIC         | CURTAIN VIDEOTAPE      |
+| 5           | Classics | TIMBERLAND SKY      | FROST HEAD        | GILMORE BOILED    | You have watched 7 Classics that"s 5 more than the DVD Rental Co. average and puts you top 1 % of experts.  | Animation | JUGGLER HARDLY | DOGMA FAMILY   | STORM HAPPINESS     | You have watched 6 Animation films making up 16 % of your total watch history! | KARL BERRY     | You have watched 4 films featuring Karl ! Here are some other films to binge!.    | VIRGINIAN PLUTO   | STAGECOACH ARMAGEDDON | TELEMARK HEARTBREAKERS |
 
 </details>
 
