@@ -1,8 +1,6 @@
-## Email Marketing Campaign by DVD Rental Co.
+## 📧 Email Marketing Campaign by DVD Rental Co.
 > *It is not customer's job to know what they want.* 
 >                                   - Steve Jobs
-
-<br>
 
 ### Table of Contents
   - [📀 Business Problem](#-business-problem)
@@ -11,7 +9,6 @@
   - [🏝️ Table Joins & Insights](#️-table-joins--insights)
   - [🏆 All in ONE](#-all-in-one)
    
-<br>
 
 ### 📀 Business Problem 
 
@@ -62,16 +59,19 @@ Before we proceed further have a look on email-draft  provided by the company.
 
 </details>
 
-### 🔎Data Exploration and Analysis [<img src="./Images/folder.gif" align=middle width=45 height=45>](./README.md "Go to folder to see full analysis") 
+### 🔎Data Exploration and Analysis [<img src="./Images/folder.gif" align=middle width=45 height=45>](./Exploratory%20Data%20Analysis/ "Go to folder to see full analysis") 
 
 Data exploration is 💗 of any data science project. If you don't do this you will probably end up making observations/conclusion which are not backed by any evidence and hence of no use in real-world as nobody will believe you. 
 
-### 🏝️ Table Joins & Insights [<img src="./Images/folder.gif" align=middle width=45 height=45>](./README.md "Go to folder to see detailed Insights") 
+> [Click here](./Exploratory%20Data%20Analysis/) here to see full analysis 
+
+### 🏝️ Table Joins & Insights [<img src="./Images/folder.gif" align=middle width=45 height=45>](./Table%20Joins%20%26%20Insights/ "Go to folder to see detailed Insights") 
 
 Data Exploration helps us understand data better but what after that? With better understanding of data lets generate insights from data using suitable table joins and many other functions to meet requirement of business. 
 
+> [Click here](./Table%20Joins%20%26%20Insights/) here to see how category and actor insights are generated 
 
-### 🏆 All in ONE [<img src="./Images/folder.gif" align=middle width=45 height=45>](./README.md "See Full Script") 
+### 🏆 All in ONE [<img src="./Images/folder.gif" align=middle width=45 height=45>](./All_in_one/ "See Full Script") 
 
 This is how our final table looks like 
 
@@ -91,9 +91,15 @@ This is how our final table looks like
 All column names and further explainations are provided in [All_in_One](All_in_one) Folder.
 Now marketing team can use this table to do their email-marketing. Good luck 
 
+> [Click here](./All_in_one/) here to see complete script and process how it is generated using output of previous analysis
 
+---
 
+©️ Mahendra Kumar, 2022
 
+For Feedback or suggestions connect on
+
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/kumar-mahendra/ "Mahendra Kumar")
 
 
 
