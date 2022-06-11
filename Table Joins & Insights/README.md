@@ -3,9 +3,12 @@
 
 Based on business questions we have,  now we design a *plan of attack* or *solution strategy* that will help us generate **insights** at ***category level*** as well as ***actor level***
 
-### Solution Strategy
+>`Note` : Click icons in front of each section to know more
 
-#### Category Insights
+
+### Solution Strategy 
+#### Category Insights [<img src="../Images/folder.png" width=30 height=30 align=middle>](./category_insights.sql) 
+ 
 >  **Base Table** is a table from which we start with 
 - Create a Base table `base_table_category_insights` by joining all the relevent tables. It must have 
   - `customer_id` : unique id of customer 
